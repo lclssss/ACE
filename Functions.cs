@@ -31,8 +31,7 @@ namespace RTL8720D_console
         //补码
         public static int ConvertToComplementCode(int OriginalCode)
         {
-            if (OriginalCode >= 0) 
-                return OriginalCode;
+            
             int a = 127;
             int b = -128;
             int c = a - b;
